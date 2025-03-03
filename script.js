@@ -150,4 +150,13 @@ document.addEventListener("DOMContentLoaded", () => {
     utterance.lang = "en-US";
     window.speechSynthesis.speak(utterance);
   }
+
+  const backBtn = document.getElementById("back-btn");
+
+backBtn.addEventListener("click", () => {
+  gameContainer.style.display = "none";
+  modeSelection.classList.remove("hide");
+ 
+});
+
 });

@@ -62,7 +62,7 @@ body {
 
 /* Heading */
 .heading {
-  margin: 20px 0;
+  margin: 40px 0;
   font-size: 2.5rem;
 }
 
@@ -102,6 +102,27 @@ body {
   justify-content: center;
   margin: auto;
   max-width: 300px;
+}
+#back-btn {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5757;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#back-btn:hover {
+  background-color: #e04343;
+}
+
+#back-btn:active {
+  background-color: #c53434;
 }
 
 .box {
@@ -196,6 +217,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .heading {
+    margin-top: 70px;
     font-size: 2rem;
   }
   .game {
@@ -214,6 +236,7 @@ body {
 
 @media (max-width: 480px) {
   .heading {
+    margin-top: 70px;
     font-size: 1.8rem;
   }
   .game {
